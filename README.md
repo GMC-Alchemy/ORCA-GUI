@@ -22,7 +22,14 @@ Developed as a personal project to support research in computational chemistry.
 - Load and save templates for reuse
 
 ## Usage
-Run the script with: python ORCA-Input-Builder.py
+- Run the script with: python ORCA-Input-Builder.py
+- Select Job Settings (method, basis, job type, charge, multiplicity).
+- Adjust Extras/Corrections and enter custom keywords if needed.
+- Configure Resources (MaxCore and number of processors).
+- Load or paste molecular coordinates.
+- (Optional) Add custom ORCA blocks in the text editor.
+- Preview the generated input at the bottom.
+- Save the input (orca_input.inp) or copy it to the clipboard.
 
 ## Contributing
 Suggestions are welcome! Feel free to use my repositories and improve them.
