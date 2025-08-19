@@ -3,6 +3,9 @@
 A graphical tool for generating ORCA input files with ease.  
 This application provides a user-friendly Tkinter interface to configure common job types, methods, basis sets, solvents, and advanced keywords for ORCA quantum chemistry calculations. It also includes a live preview of the generated input file.
 
+## Purpose:
+Developed as a personal project to support research in computational chemistry.
+
 ## Features
 - Select common **job types** (SP, OPT, FREQ, TD-DFT, etc.)
 - Choose from popular **DFT methods** and **basis sets**
