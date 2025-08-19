@@ -1,5 +1,8 @@
 # ORCA Input Builder (GUI)
 
+by Gabriel Monteiro de Castro.
+
+## Description
 A graphical tool for generating ORCA input files with ease.  
 This application provides a user-friendly Tkinter interface to configure common job types, methods, basis sets, solvents, and advanced keywords for ORCA quantum chemistry calculations. It also includes a live preview of the generated input file.
 
@@ -18,10 +21,10 @@ Developed as a personal project to support research in computational chemistry.
 - Save inputs as `.inp` files
 - Load and save templates for reuse
 
-## Installation
-This app is pure Python and depends only on Tkinter (included with most Python distributions).
-
 ## Usage
-python ORCA-Input-Builder.py
+Run the script with: python ORCA-Input-Builder.py
+
+## Contributing
+Suggestions are welcome! Feel free to use my repositories and improve them.
 
 ---
