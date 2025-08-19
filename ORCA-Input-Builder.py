@@ -1,19 +1,3 @@
-"""
-ORCA Input Builder (GUI)
-------------------------
-A Tkinter-based GUI tool for building ORCA quantum chemistry input files.
-
-Features:
-- Select job type, method, basis set, solvent.
-- Configure charge, multiplicity, and resources.
-- Toggle extra keywords (TightSCF, D3BJ, CPCM, etc.).
-- Load or paste molecular coordinates (XYZ/PDB).
-- Add custom ORCA input blocks.
-- Live preview with copy, save, and template support.
-
-Author: Gabriel Monteiro de Castro, Ph.D.
-"""
-
 import os
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
@@ -297,4 +281,5 @@ class ORCAInputBuilder(tk.Tk):
 
 if __name__ == '__main__':
     app = ORCAInputBuilder()
+
     app.mainloop()
